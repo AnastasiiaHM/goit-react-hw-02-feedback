@@ -1,0 +1,12 @@
+.statistic__total {
+  font-size: 18px;
+  color: darkslategray;
+}
+.statistic__totalWraper {
+  display: flex;
+}
+.statistic__totalTitle {
+  font-size: 20px;
+  text-align: center;
+  color: darkslategrey;
+}

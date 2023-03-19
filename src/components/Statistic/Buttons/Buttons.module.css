@@ -1,0 +1,23 @@
+.btnWraper {
+  display: flex;
+  gap: 10px;
+}
+.statistic__btn {
+  width: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 4px;
+  border: none;
+
+  color: darkslategray;
+  background-color: #fa8e12;
+}
+
+.statistic__btn:hover,
+.statistic__btn:focus {
+  background-color: #fcb851;
+  color: black;
+}

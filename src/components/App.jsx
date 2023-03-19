@@ -1,16 +1,11 @@
+import css from './App.module.css';
+import { Statistic } from './Statistic/Statistic';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
+    <div className={css.bodyApp}>
       React homework template
+      <Statistic />
     </div>
   );
 };
