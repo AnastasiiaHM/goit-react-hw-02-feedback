@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import { Buttons } from './Buttons/Buttons';
 import { Total } from './Total/Total';
+import { Notification } from './Notification/Notification';
 import css from '../Statistic/Statistic.module.css';
 
 export class Statistic extends Component {
@@ -78,7 +79,7 @@ export class Statistic extends Component {
               negativ={this.countNegativeFeedback()}
             />
           ) : (
-            <p>There is no feedback</p>
+            <Notification message="There is no feedback" />
           )}
         </div>
       </div>
