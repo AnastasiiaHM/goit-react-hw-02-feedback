@@ -5,7 +5,7 @@ export const Buttons = ({ nameBtn, handleClick }) => {
     <button
       type="button"
       className={css.statistic__btn}
-      onClick={() => handleClick()}
+      onClick={() => handleClick(nameBtn)}
     >
       {nameBtn}
     </button>
